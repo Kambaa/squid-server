@@ -20,3 +20,33 @@ A simple working squid server for windows, not very secure, some config editing 
 ```
 <squid's running local ip address>:3128
 ```
+
+
+# USAGE
+
+## maven 
+add this to your settings.xml 
+```
+</settings>
+ ... OTHER SETTINGS ...
+<proxies>
+   <proxy>
+      <id>worklaptopproxy</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <host>YOUR IP ADDRESS</host>
+      <port>3128</port>
+      <!-- <nonProxyHosts>www.google.com|*.example.com</nonProxyHosts> -->
+    </proxy>
+  </proxies>
+</settings>
+```
+
+## browsers
+- use an addon (SwitchyOmega, Foxyproxy etc.)
+- add your proxy like <IP>:3128 (no auth)
+  
+  
+## other
+- find proxy setup and set it to: 
+  <IP>:3128
