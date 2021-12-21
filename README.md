@@ -27,7 +27,7 @@ A simple working squid server for windows, not very secure, some config editing 
 ## maven 
 add this to your settings.xml 
 ```
-</settings>
+<settings>
  ... OTHER SETTINGS ...
 <proxies>
    <proxy>
