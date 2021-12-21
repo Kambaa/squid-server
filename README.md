@@ -62,3 +62,6 @@ add this to your settings.xml
  - https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif/related?hl=en
  - https://github.com/psf/requests/issues/881
  - https://elatov.github.io/2019/01/using-squid-to-proxy-ssl-sites/
+ - https://stackoverflow.com/questions/120797/how-do-i-set-the-proxy-to-be-used-by-the-jvm
+ - https://docs.oracle.com/javase/6/docs/technotes/guides/net/proxies.html
+ - https://stackoverflow.com/a/62311039
