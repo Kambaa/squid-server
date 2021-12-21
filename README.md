@@ -52,3 +52,13 @@ add this to your settings.xml
   `<IP>:3128`
 - Running java apps (not tested)
  command line :  `java -Dhttp.proxyHost=YOURIP -Dhttp.proxyPort=3128`  (from https://docs.oracle.com/javase/1.5.0/docs/guide/net/proxies.html)
+ 
+ 
+## Somethings to read about this: 
+ - https://techencyclopedia.wordpress.com/2018/04/07/how-to-install-and-configure-squid-proxy-on-windows/
+ - https://stackoverflow.com/questions/28677228/using-proxy-server-for-java-application
+ - https://docs.oracle.com/javase/1.5.0/docs/guide/net/proxies.html
+ - https://www.baeldung.com/java-connect-via-proxy-server
+ - https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif/related?hl=en
+ - https://github.com/psf/requests/issues/881
+ - https://elatov.github.io/2019/01/using-squid-to-proxy-ssl-sites/
