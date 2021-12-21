@@ -1,0 +1,84 @@
+2021/12/21 12:59:53| Starting Squid Cache version 2.7.STABLE8 for i686-pc-winnt...
+2021/12/21 12:59:53| Running on Windows Vista
+2021/12/21 12:59:53| Process ID 15272
+2021/12/21 12:59:53| With 2048 file descriptors available
+2021/12/21 12:59:53| With 512 CRT stdio descriptors available
+2021/12/21 12:59:53| Windows sockets initialized
+2021/12/21 12:59:53| Using select for the IO loop
+2021/12/21 12:59:53| Performing DNS Tests...
+2021/12/21 12:59:53| Successful DNS name lookup tests...
+2021/12/21 12:59:53| DNS Socket created at 0.0.0.0, port 56508, FD 4
+2021/12/21 12:59:53| Adding DHCP nameserver 10.199.4.40 from Registry
+2021/12/21 12:59:53| Adding DHCP nameserver 10.199.4.41 from Registry
+2021/12/21 12:59:53| Adding DHCP nameserver 192.168.1.1 from Registry
+2021/12/21 12:59:53| Adding nameserver 10.199.4.40 from Registry
+2021/12/21 12:59:53| Adding nameserver 10.199.4.41 from Registry
+2021/12/21 12:59:53| Adding nameserver 192.168.1.1 from Registry
+2021/12/21 12:59:53| Adding nameserver 10.199.4.40 from Registry
+2021/12/21 12:59:53| Adding nameserver 10.199.4.41 from Registry
+2021/12/21 12:59:53| Adding nameserver 10.199.4.40 from Registry
+2021/12/21 12:59:53| Adding nameserver 10.199.4.41 from Registry
+2021/12/21 12:59:53| Adding nameserver 10.199.4.40 from Registry
+2021/12/21 12:59:53| Adding nameserver 10.199.4.41 from Registry
+2021/12/21 12:59:53| Adding nameserver 10.199.4.40 from Registry
+2021/12/21 12:59:53| Adding nameserver 10.199.4.41 from Registry
+2021/12/21 12:59:53| Adding DHCP nameserver 10.199.4.40 from Registry
+2021/12/21 12:59:53| Adding DHCP nameserver 10.199.4.41 from Registry
+2021/12/21 12:59:53| Adding domain epias.intra from Registry
+2021/12/21 12:59:53| Adding domain epias.intra from Registry
+2021/12/21 12:59:53| User-Agent logging is disabled.
+2021/12/21 12:59:53| Referer logging is disabled.
+2021/12/21 12:59:53| logfileOpen: opening log C:/Users/yusuf.gunduz/Desktop/squid/var/logs/access.log
+2021/12/21 12:59:53| Unlinkd pipe opened on FD 7
+2021/12/21 12:59:53| Swap maxSize 102400 + 8192 KB, estimated 8507 objects
+2021/12/21 12:59:53| Target number of buckets: 425
+2021/12/21 12:59:53| Using 8192 Store buckets
+2021/12/21 12:59:53| Max Mem  size: 8192 KB
+2021/12/21 12:59:53| Max Swap size: 102400 KB
+2021/12/21 12:59:53| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2021/12/21 12:59:53| logfileOpen: opening log C:/Users/yusuf.gunduz/Desktop/squid/var/logs/store.log
+2021/12/21 12:59:53| Rebuilding storage in c:/Users/yusuf.gunduz/Desktop/squid/var/cache (DIRTY)
+2021/12/21 12:59:53| Using Least Load store dir selection
+2021/12/21 12:59:53| Set Current Directory to C:/Users/yusuf.gunduz/Desktop/squid/var/cache
+2021/12/21 12:59:53| Loaded Icons.
+2021/12/21 12:59:53| Accepting proxy HTTP connections at 0.0.0.0, port 3128, FD 12.
+2021/12/21 12:59:53| Accepting ICP messages at 0.0.0.0, port 3130, FD 13.
+2021/12/21 12:59:53| Accepting HTCP messages on port 4827, FD 14.
+2021/12/21 12:59:53| Accepting SNMP messages on port 3401, FD 15.
+2021/12/21 12:59:53| c:/squid/var/logs/squid.pid: (2) No such file or directory
+2021/12/21 12:59:53| WARNING: Could not write pid file
+2021/12/21 12:59:53| Ready to serve requests.
+2021/12/21 12:59:54| Done scanning c:/Users/yusuf.gunduz/Desktop/squid/var/cache (0 entries)
+2021/12/21 12:59:54| Finished rebuilding storage from disk.
+2021/12/21 12:59:54|         0 Entries scanned
+2021/12/21 12:59:54|         0 Invalid entries.
+2021/12/21 12:59:54|         0 With invalid flags.
+2021/12/21 12:59:54|         0 Objects loaded.
+2021/12/21 12:59:54|         0 Objects expired.
+2021/12/21 12:59:54|         0 Objects cancelled.
+2021/12/21 12:59:54|         0 Duplicate URLs purged.
+2021/12/21 12:59:54|         0 Swapfile clashes avoided.
+2021/12/21 12:59:54|   Took 0.8 seconds (   0.0 objects/sec).
+2021/12/21 12:59:54| Beginning Validation Procedure
+2021/12/21 12:59:54|   Completed Validation Procedure
+2021/12/21 12:59:54|   Validated 0 Entries
+2021/12/21 12:59:54|   store_swap_size = 0k
+2021/12/21 12:59:54| storeLateRelease: released 0 objects
+2021/12/21 13:00:17| Preparing for shutdown after 1 requests
+2021/12/21 13:00:17| Waiting 0 seconds for active connections to finish
+2021/12/21 13:00:17| FD 12 Closing HTTP connection
+2021/12/21 13:00:18| Shutting down...
+2021/12/21 13:00:18| FD 13 Closing ICP connection
+2021/12/21 13:00:18| FD 14 Closing HTCP socket
+2021/12/21 13:00:18| FD 15 Closing SNMP socket
+2021/12/21 13:00:18| Closing unlinkd pipe on FD 7
+2021/12/21 13:00:18| storeDirWriteCleanLogs: Starting...
+2021/12/21 13:00:18|   Finished.  Wrote 0 entries.
+2021/12/21 13:00:18|   Took 0.0 seconds (   0.0 entries/sec).
+CPU Usage: 0.688 seconds = 0.047 user + 0.641 sys
+Maximum Resident Size: 15524 KB
+Page faults with physical i/o: 4048
+2021/12/21 13:00:18| logfileClose: closing log C:/Users/yusuf.gunduz/Desktop/squid/var/logs/store.log
+2021/12/21 13:00:18| logfileClose: closing log C:/Users/yusuf.gunduz/Desktop/squid/var/logs/access.log
+2021/12/21 13:00:18| safeunlink: Couldn't delete c:/squid/var/logs/squid.pid: (2) No such file or directory
+2021/12/21 13:00:18| Squid Cache (Version 2.7.STABLE8): Exiting normally.
