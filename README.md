@@ -5,6 +5,8 @@ A simple working squid server for windows, not very secure, some config editing 
 - unzip
 - open squid/etc/squid.conf file
 - replace all "C:/Users/yusuf.gunduz/Desktop/" with the directory that extracted squid folder is in
+- go to https://hostingcanada.org/htpasswd-generator/ create user, password, select mode '* Apache specific salted MD5 (insecure but common)'
+- copy generated user pass info text to squid/etc/passwd file(replace with everything)
 - open squid/sbin folder in terminal 
 - run command below to create cache stuff(edit where your squid folder is and `cd` to it first)
 ```
