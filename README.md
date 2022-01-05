@@ -46,7 +46,7 @@ add this to your settings.xml
 
 ## browsers
 - use an addon (SwitchyOmega, Foxyproxy etc.)
-- add your proxy like <IP>:3128 (no auth)
+- add your proxy like <IP>:3128 (with user pass info)
   
   
 ## other
