@@ -26,6 +26,20 @@ A simple working squid server for windows, not very secure, some config editing 
 
 # USAGE
 
+## git 
+setup no auth:
+```
+git config --global http.proxy http://ip:port
+```
+setup with auth:
+```
+git config --global http.proxy http://username:password@ip:port
+```
+revert/reset setting:
+```
+git config --global --unset http.proxy
+```
+
 ## maven 
 add this to your settings.xml 
 ```
@@ -38,6 +52,8 @@ add this to your settings.xml
       <protocol>http</protocol>
       <host>YOUR IP ADDRESS</host>
       <port>3128</port>
+      <username>user</username><!-- enter username here -->
+      <password>pass</password><!-- enter password here -->
       <!-- <nonProxyHosts>www.google.com|*.example.com</nonProxyHosts> -->
     </proxy>
   </proxies>
@@ -67,3 +83,4 @@ add this to your settings.xml
  - https://stackoverflow.com/questions/120797/how-do-i-set-the-proxy-to-be-used-by-the-jvm
  - https://docs.oracle.com/javase/6/docs/technotes/guides/net/proxies.html
  - https://stackoverflow.com/a/62311039
+ - https://gist.github.com/evantoli/f8c23a37eb3558ab8765
