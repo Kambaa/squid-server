@@ -1,8 +1,8 @@
+
+# Newer alternative is at https://squid.diladele.com/ and my config(just changed dns server ips for work) (secret gist https://gist.github.com/Kambaa/2f189a70ef3bf26ad5410947bcfefb4d)
+
 # squid-server
-
-A simple working squid server for windows, not very secure, some config editing needed.
-
-### Newer alternative is at https://squid.diladele.com/ 
+An *OLDER*, simple working squid server for windows, not very secure, some config editing needed.
 
 ## instructions
 - unzip to a `<YOUR_DIR>`
